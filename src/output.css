@@ -610,6 +610,9 @@
   .bg-\[url\(\'\/src\/Photos\/bg\.jpg\'\)\] {
     background-image: url('/src/Photos/bg.jpg');
   }
+  .bg-\[url\(\'Photos\/bg\.jpg\'\)\] {
+    background-image: url('Photos/bg.jpg');
+  }
   .from-black {
     --tw-gradient-from: var(--color-black);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
@@ -975,6 +978,11 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
+  .md\:bg-\[url\(\'\/Photos\/Physiotherapy\.png\'\)\] {
+    @media (width >= 48rem) {
+      background-image: url('/Photos/Physiotherapy.png');
+    }
+  }
   .md\:bg-\[url\(\'\/dist\/Photos\/Physiotherapy\.png\'\)\] {
     @media (width >= 48rem) {
       background-image: url('/dist/Photos/Physiotherapy.png');
@@ -983,6 +991,11 @@
   .md\:bg-\[url\(\'\/src\/Photos\/Physiotherapy\.png\'\)\] {
     @media (width >= 48rem) {
       background-image: url('/src/Photos/Physiotherapy.png');
+    }
+  }
+  .md\:bg-\[url\(\'Photos\/Physiotherapy\.png\'\)\] {
+    @media (width >= 48rem) {
+      background-image: url('Photos/Physiotherapy.png');
     }
   }
   .lg\:grid-cols-2 {
@@ -1255,15 +1268,6 @@
       --tw-backdrop-opacity: initial;
       --tw-backdrop-saturate: initial;
       --tw-backdrop-sepia: initial;
-      --tw-duration: initial;
-      --tw-ease: initial;
-      --tw-scale-x: 1;
-      --tw-scale-y: 1;
-      --tw-scale-z: 1;
-    }
-  }
-}
--sepia: initial;
       --tw-duration: initial;
       --tw-ease: initial;
       --tw-scale-x: 1;
