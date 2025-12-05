@@ -975,6 +975,11 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
+  .md\:bg-\[url\(\'\/Photos\/Physiotherapy\.png\'\)\] {
+    @media (width >= 48rem) {
+      background-image: url('/Photos/Physiotherapy.png');
+    }
+  }
   .md\:bg-\[url\(\'\/dist\/Photos\/Physiotherapy\.png\'\)\] {
     @media (width >= 48rem) {
       background-image: url('/dist/Photos/Physiotherapy.png');
@@ -1255,15 +1260,6 @@
       --tw-backdrop-opacity: initial;
       --tw-backdrop-saturate: initial;
       --tw-backdrop-sepia: initial;
-      --tw-duration: initial;
-      --tw-ease: initial;
-      --tw-scale-x: 1;
-      --tw-scale-y: 1;
-      --tw-scale-z: 1;
-    }
-  }
-}
--sepia: initial;
       --tw-duration: initial;
       --tw-ease: initial;
       --tw-scale-x: 1;
